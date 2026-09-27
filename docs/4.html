@@ -9,6 +9,8 @@
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="./add.css" />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
@@ -19,13 +21,6 @@
     <title>4月の歳時記</title>
 
     <style>
-        body {
-            font-family: 'Hiragino Sans', sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            padding: 0;
-        }
-
         .header {
             text-align: center;
             padding: 20px;
@@ -33,12 +28,6 @@
             color: white;
             font-size: 28px;
             font-weight: bold;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
         }
 
         .section {
@@ -55,15 +44,6 @@
             border-left: 6px solid #7fbd72;
             padding-left: 10px;
             margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 1.2em;
-        }
-
-        li {
-            margin-bottom: 6px;
-            line-height: 1.6;
         }
 
         .calendar-item {
@@ -84,17 +64,20 @@
     <div class="container">
 
         <div class="section">
+            <h2><i class="fa-solid fa-camera-retro"></i> 今月の１枚</h2>
             <img src="images/month/april.jpg" alt="卯月" style="width:100%; border-radius:12px;">
-
+            <p class="mt-1">福島県 会津若松市　鶴ヶ城の桜 © SQUAREZERO, CC BY 4.0</p>
         </div>
 
         <div class="section">
-            <h2>■ 旧暦</h2>
-
+            <h2><i class="fa-solid fa-globe"></i> 名前の由来</h2>
+            <ul>
+                <li><strong>卯月（うづき）</strong> − 卯の花が咲く季節であることから「卯月」と呼ばれるようになったという説がある。</li>
+            </ul>
         </div>
 
         <div class="section">
-            <h2>■ 今月の主な行事</h2>
+            <h2><i class="fa-solid fa-users"></i> 今月の主な行事</h2>
             <ul>
                 <li><strong>花見</strong> − 桜の花を眺めながら、春の訪れを楽しむ日本の風習。家族や友人と桜の下で過ごす時間も大切な春の文化です。</li>
                 <li><strong>入学式・入園式</strong> − 新しい学校や園での生活が始まる節目の行事。桜の季節と重なることも多く、春の風景として親しまれています。</li>
@@ -104,7 +87,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 行事カレンダー</h2>
+            <h2><i class="fa-regular fa-calendar-days"></i> 行事カレンダー</h2>
             <div class="calendar-item">4月上旬　花見・入学式・入園式</div>
             <div class="calendar-item">4月8日　花まつり（灌仏会）</div>
             <div class="calendar-item">4月20日頃　穀雨（二十四節気）</div>
@@ -112,7 +95,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 季語</h2>
+            <h2><i class="fa-solid fa-book-bookmark"></i> 季語</h2>
             <ul>
                 <li><strong>桜</strong> − 春を代表する花。日本では古くから季節の象徴として親しまれています。</li>
                 <li><strong>花吹雪</strong> − 桜の花びらが風に舞い散る様子。満開の桜とは違った美しさがあります。</li>
@@ -122,7 +105,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 旬の自然と食べ物</h2>
+            <h2><i class="fa-solid fa-utensils"></i> 旬の自然と食べ物</h2>
             <ul>
                 <li><strong>桜</strong> − 4月を代表する花。地域によって開花時期が異なるため、長い期間楽しむことができます。</li>
                 <li><strong>たけのこ</strong> − 春を代表する旬の食材。たけのこご飯や煮物など、さまざまな料理で楽しめます。</li>

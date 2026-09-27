@@ -9,6 +9,8 @@
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="./add.css" />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -24,13 +26,6 @@
     <title>9月の歳時記</title>
 
     <style>
-        body {
-            font-family: 'Hiragino Sans', sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            padding: 0;
-        }
-
         .header {
             text-align: center;
             padding: 20px;
@@ -38,12 +33,6 @@
             color: white;
             font-size: 28px;
             font-weight: bold;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
         }
 
         .section {
@@ -60,15 +49,6 @@
             border-left: 6px solid #c97882;
             padding-left: 10px;
             margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 1.2em;
-        }
-
-        li {
-            margin-bottom: 6px;
-            line-height: 1.6;
         }
 
         .calendar-item {
@@ -89,17 +69,19 @@
     <div class="container">
 
         <div class="section">
+            <h2><i class="fa-solid fa-camera-retro"></i> 今月の１枚</h2>
             <img src="images/month/september.jpg" alt="長月" style="width:100%; border-radius:12px;">
+            <p class="mt-1"></p>
 
         </div>
 
         <div class="section">
-            <h2>■ 旧暦</h2>
+            <h2><i class="fa-solid fa-globe"></i> 名前の由来</h2>
 
         </div>
 
         <div class="section">
-            <h2>■ 今月の主な行事</h2>
+            <h2><i class="fa-solid fa-users"></i> 今月の主な行事</h2>
             <ul>
                 <li><strong>防災の日（9月1日）</strong> − 防災について考え、災害への備えを確認する日。</li>
                 <li><strong>十五夜・中秋の名月</strong> − 秋の美しい月を眺め、月見団子やすすきを供えて月を楽しむ風習。</li>
@@ -109,7 +91,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 行事カレンダー</h2>
+            <h2><i class="fa-regular fa-calendar-days"></i> 行事カレンダー</h2>
             <div class="calendar-item">9月1日　防災の日</div>
             <div class="calendar-item">9月7日頃　白露（二十四節気）</div>
             <div class="calendar-item">9月第3月曜日　敬老の日</div>
@@ -119,7 +101,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 季語</h2>
+            <h2><i class="fa-solid fa-book-bookmark"></i> 季語</h2>
             <ul>
                 <li><strong>秋風</strong> − 夏の暑さが和らぎ、涼しく感じられるようになった風。</li>
                 <li><strong>月見</strong> − 秋の月、特に十五夜の月を眺めて楽しむ風習。</li>
@@ -129,7 +111,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 旬の自然と食べ物</h2>
+            <h2><i class="fa-solid fa-utensils"></i> 旬の自然と食べ物</h2>
             <ul>
                 <li><strong>すすき</strong> − 秋の野原を代表する植物。十五夜には月見団子などと一緒に飾る。</li>
                 <li><strong>彼岸花</strong> − 秋のお彼岸の頃に赤い花を咲かせる、日本の秋を象徴する花。</li>

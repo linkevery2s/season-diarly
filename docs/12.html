@@ -9,6 +9,8 @@
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="./add.css" />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -24,13 +26,6 @@
     <title>12月の歳時記</title>
 
     <style>
-        body {
-            font-family: 'Hiragino Sans', sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            padding: 0;
-        }
-
         .header {
             text-align: center;
             padding: 20px;
@@ -38,12 +33,6 @@
             color: white;
             font-size: 28px;
             font-weight: bold;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
         }
 
         .section {
@@ -60,15 +49,6 @@
             border-left: 6px solid #4d647d;
             padding-left: 10px;
             margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 1.2em;
-        }
-
-        li {
-            margin-bottom: 6px;
-            line-height: 1.6;
         }
 
         .calendar-item {
@@ -89,17 +69,19 @@
     <div class="container">
 
         <div class="section">
+            <h2><i class="fa-solid fa-camera-retro"></i> 今月の１枚</h2>
             <img src="images/month/december.jpg" alt="師走" style="width:100%; border-radius:12px;">
+            <p class="mt-1">兵庫県 気嵐に包まれた竜宮城 © rikky_photography, CC BY 4.0</p>
 
         </div>
 
         <div class="section">
-            <h2>■ 旧暦</h2>
+            <h2><i class="fa-solid fa-globe"></i> 名前の由来</h2>
 
         </div>
 
         <div class="section">
-            <h2>■ 今月の主な行事</h2>
+            <h2><i class="fa-solid fa-users"></i> 今月の主な行事</h2>
             <ul>
                 <li><strong>大掃除</strong> − 一年の終わりに家の中をきれいにして、新しい年を迎えるための習慣。</li>
                 <li><strong>冬至</strong> − 一年の中で昼が最も短くなる頃。ゆず湯に入り、かぼちゃを食べる風習がある。</li>
@@ -109,7 +91,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 行事カレンダー</h2>
+            <h2><i class="fa-regular fa-calendar-days"></i> 行事カレンダー</h2>
             <div class="calendar-item">12月7日頃　大雪（二十四節気）</div>
             <div class="calendar-item">12月13日　正月事始め・煤払い</div>
             <div class="calendar-item">12月21日頃　冬至（二十四節気）</div>
@@ -118,7 +100,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 季語</h2>
+            <h2><i class="fa-solid fa-book-bookmark"></i> 季語</h2>
             <ul>
                 <li><strong>師走</strong> − 12月の別名。一年の終わりで、師も走るほど忙しい月という意味で知られている。</li>
                 <li><strong>冬至</strong> − 一年の中で昼が最も短くなる頃。冬の深まりを感じさせる言葉。</li>
@@ -128,7 +110,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 旬の自然と食べ物</h2>
+            <h2><i class="fa-solid fa-utensils"></i> 旬の自然と食べ物</h2>
             <ul>
                 <li><strong>冬の星空</strong> − 空気が澄む冬は、オリオン座や冬の大三角などが美しく見える。</li>
                 <li><strong>南天</strong> − 冬に赤い実をつける植物。「難を転ずる」に通じるとして縁起物にもされる。</li>
