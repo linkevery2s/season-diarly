@@ -9,6 +9,8 @@
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="./add.css" />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
@@ -19,13 +21,6 @@
     <title>3月の歳時記</title>
 
     <style>
-        body {
-            font-family: 'Hiragino Sans', sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            padding: 0;
-        }
-
         .header {
             text-align: center;
             padding: 20px;
@@ -33,12 +28,6 @@
             color: white;
             font-size: 28px;
             font-weight: bold;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
         }
 
         .section {
@@ -55,15 +44,6 @@
             border-left: 6px solid #ff9bb3;
             padding-left: 10px;
             margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 1.2em;
-        }
-
-        li {
-            margin-bottom: 6px;
-            line-height: 1.6;
         }
 
         .calendar-item {
@@ -84,17 +64,20 @@
     <div class="container">
 
         <div class="section">
+            <h2><i class="fa-solid fa-camera-retro"></i> 今月の１枚</h2>
             <img src="images/month/march.jpg" alt="弥生" style="width:100%; border-radius:12px;">
-
+            <p class="mt-1">千葉県 千葉　いすみ市　菜の花畑の菜の花 © T-KIMURA, CC BY 4.0</p>
         </div>
 
         <div class="section">
-            <h2>■ 旧暦</h2>
-
+            <h2><i class="fa-solid fa-globe"></i> 名前の由来</h2>
+            <ul>
+                <li><strong>弥生（やよい）</strong> − 「弥（いよいよ）」と「生（生い）」から、草木がいよいよ生い茂る月という意味に由来するという説がある。</li>
+            </ul>
         </div>
 
         <div class="section">
-            <h2>■ 今月の主な行事</h2>
+            <h2><i class="fa-solid fa-users"></i> 今月の主な行事</h2>
             <ul>
                 <li><strong>ひな祭り（3月3日）</strong> − 女の子の健やかな成長を願う伝統行事。</li>
                 <li><strong>春分の日</strong> − 昼と夜の長さがほぼ同じになり、自然をたたえる祝日。</li>
@@ -104,7 +87,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 行事カレンダー</h2>
+            <h2><i class="fa-regular fa-calendar-days"></i> 行事カレンダー</h2>
             <div class="calendar-item">3月3日　ひな祭り（桃の節句）</div>
             <div class="calendar-item">3月5日頃　啓蟄（二十四節気）</div>
             <div class="calendar-item">3月中旬　卒業式シーズン</div>
@@ -113,7 +96,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 季語</h2>
+            <h2><i class="fa-solid fa-book-bookmark"></i> 季語</h2>
             <ul>
                 <li><strong>雛祭</strong> − 女の子の節句。</li>
                 <li><strong>啓蟄</strong> − 冬眠していた虫が動き出す頃。</li>
@@ -123,7 +106,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 旬の自然と食べ物</h2>
+            <h2><i class="fa-solid fa-utensils"></i> 旬の自然と食べ物</h2>
             <ul>
                 <li><strong>桜</strong> − 日本の春を象徴する花で花見の季節。</li>
                 <li><strong>菜の花</strong> − 春を感じる黄色い花。</li>
