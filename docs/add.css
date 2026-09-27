@@ -1,40 +1,26 @@
-body {
-    font-family: 'Hiragino Sans', sans-serif;
-    background: rgba(255, 255, 255, 0.8);
+html {
     margin: 0;
     padding: 0;
-    z-index: 0;
 }
 
-.header {
-    text-align: center;
-    padding: 20px;
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: bold;
+body {
+    font-family: 'Hiragino Sans', sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+}
+
+.header{
     position: fixed;
+    z-index: 100;
     width: 100%;
-    z-index: 1;
 }
 
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-}
-
-.section {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 16px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.section h2 {
-    margin-top: 0;
-    font-size: 22px;
-    padding-left: 10px;
+    padding: 100px 20px 20px 20px;
 }
 
 ul {
@@ -46,10 +32,8 @@ li {
     line-height: 1.6;
 }
 
-.calendar-item {
-    background: #fff0f0;
-    padding: 8px 12px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    font-size: 16px;
+p {
+    color: #89c3eb;
+    font-size: .5em;
+    text-align: right;
 }

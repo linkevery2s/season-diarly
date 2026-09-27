@@ -9,6 +9,8 @@
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="./add.css" />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
@@ -19,13 +21,6 @@
     <title>2月の歳時記</title>
 
     <style>
-        body {
-            font-family: 'Hiragino Sans', sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            padding: 0;
-        }
-
         .header {
             text-align: center;
             padding: 20px;
@@ -33,12 +28,6 @@
             color: white;
             font-size: 28px;
             font-weight: bold;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
         }
 
         .section {
@@ -55,15 +44,6 @@
             border-left: 6px solid #b96aa3;
             padding-left: 10px;
             margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 1.2em;
-        }
-
-        li {
-            margin-bottom: 6px;
-            line-height: 1.6;
         }
 
         .calendar-item {
@@ -84,17 +64,20 @@
     <div class="container">
 
         <div class="section">
+            <h2><i class="fa-solid fa-camera-retro"></i> 今月の１枚</h2>
             <img src="images/month/feburary.jpg" alt="如月" style="width:100%; border-radius:12px;">
-
+            <p class="mt-1">兵庫県 三ツ塚史跡公園の梅林 © rikky_photography, CC BY 4.0</p>
         </div>
 
         <div class="section">
-            <h2>■ 旧暦</h2>
-
+            <h2><i class="fa-solid fa-globe"></i> 名前の由来</h2>
+            <ul>
+                <li><strong>如月（きさらぎ）</strong> − 寒さが厳しいため、衣服を重ねて着る「衣更着（きさらぎ）」が由来という説がある。</li>
+            </ul>
         </div>
 
         <div class="section">
-            <h2>■ 今月の主な行事</h2>
+            <h2><i class="fa-solid fa-users"></i> 今月の主な行事</h2>
             <ul>
                 <li><strong>節分（2月3日頃）</strong> − 「鬼は外、福は内」と豆まきをして邪気を払い、福を招く行事。</li>
                 <li><strong>立春</strong> − 二十四節気の始まりで、暦の上では春の訪れを意味する日。</li>
@@ -104,7 +87,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 行事カレンダー</h2>
+            <h2><i class="fa-regular fa-calendar-days"></i> 行事カレンダー</h2>
             <div class="calendar-item">2月3日　節分</div>
             <div class="calendar-item">2月4日頃　立春</div>
             <div class="calendar-item">2月11日　建国記念の日</div>
@@ -113,7 +96,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 季語</h2>
+            <h2><i class="fa-solid fa-book-bookmark"></i> 季語</h2>
             <ul>
                 <li><strong>立春</strong> − 春の始まりを告げる日。</li>
                 <li><strong>余寒</strong> − 立春後も残る寒さ。</li>
@@ -122,7 +105,7 @@
         </div>
 
         <div class="section">
-            <h2>■ 旬の自然と食べ物</h2>
+            <h2><i class="fa-solid fa-utensils"></i> 旬の自然と食べ物</h2>
             <ul>
                 <li><strong>梅の花</strong> − 冬の寒さの中で咲く春の訪れの象徴。</li>
                 <li><strong>ふきのとう</strong> − 春の訪れを感じる山菜。</li>
